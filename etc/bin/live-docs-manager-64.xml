@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>F:\materials\companies\livedocs\live_docs_manager\livedocs-manager\target\livedocs-manager-1.0.0-64.jar</jar>
+  <outfile>F:\materials\companies\livedocs\live_docs_manager\livedocs-manager\etc\live-docs-manager (x64).exe</outfile>
+  <errTitle>Java Runtime Environment is missing.</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest>F:\materials\companies\livedocs\live_docs_manager\livedocs-manager\etc\bin\live-docs-manager-1.0.0 (x64).manifest</manifest>
+  <icon>F:\materials\companies\livedocs\live_docs_manager\livedocs-ui-commons\src\main\resources\static\images\ldm.ico</icon>
+  <singleInstance>
+    <mutexName>live-docs-manager</mutexName>
+    <windowTitle>live-docs-manager-1.0.0</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>bin/jre8u74_64</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0_00</minVersion>
+    <maxVersion>1.8.0_74</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64</runtimeBits>
+    <initialHeapSize>512</initialHeapSize>
+    <maxHeapSize>1024</maxHeapSize>
+    <opt>-javaagent:&quot;lib/spring-instrument-4.2.5.RELEASE.jar&quot;</opt>
+    <opt>-Djcifs.smb.client.responseTimeout=3000</opt>
+    <opt>-Djcifs.resolveOrder=DNS</opt>
+    <opt>-Djcifs.util.loglevel=2</opt>
+    <opt>-Djcifs.smb.client.useExtendedSecurity=false</opt>
+    <opt>-Dspring.security.strategy=MODE_GLOBAL</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>live-docs-manager</fileDescription>
+    <copyright>live-docs-manager</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>live-docs-manager</productName>
+    <companyName></companyName>
+    <internalName>live-docs-manager</internalName>
+    <originalFilename>live-docs-manager-1.0.0 (x64).exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

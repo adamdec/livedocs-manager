@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<aspectj>
+	<weaver options="-warn:none -Xlint:ignore">
+		<include within="com.indexdata.livedocs..*" />
+	</weaver>
+</aspectj>

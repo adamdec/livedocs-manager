@@ -1,0 +1,77 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<jpa:repositories base-package="com.indexdata.livedocs.manager.repository" />
+
+	<tx:annotation-driven transaction-manager="transactionManager"
+		mode="aspectj" proxy-target-class="true" />
+
+	<bean id="hibernateJpaDialect" class="org.springframework.orm.jpa.vendor.HibernateJpaDialect" />
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="persistenceUnitName" value="LiveDocsPU" />
+		<property name="packagesToScan"
+			value="com.indexdata.livedocs.manager.repository.domain" />
+		<property name="jpaVendorAdapter" ref="hibernateAdapter" />
+		<property name="jpaProperties">
+			<value>
+				hibernate.show_sql=true
+				hibernate.format_sql=false
+				hibernate.cache.use_query_cache=true
+				hibernate.cache.use_second_level_cache=true
+				hibernate.enable_lazy_load_no_trans=true
+				hibernate.cache.region.factory_class=org.hibernate.cache.ehcache.EhCacheRegionFactory
+				hibernate.generate_statistics=false
+				net.sf.ehcache.configurationResourceName=/ehcache.xml
+				net.sf.ehcache.hibernate.cache_lock_timeout=0
+				hibernate.order_inserts=true
+				hibernate.order_updates=true
+				hibernate.jdbc.batch_size=100
+			</value>
+		</property>
+	</bean>
+
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="jpaDialect" ref="hibernateJpaDialect" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource"
+		destroy-method="close">
+		<constructor-arg ref="hikariConfig" />
+	</bean>
+
+	<bean id="hibernateAdapter"
+		class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+		<property name="generateDdl" value="true" />
+		<property name="showSql" value="true" />
+		<property name="databasePlatform" value="org.hibernate.dialect.H2Dialect" />
+		<property name="database" value="H2" />
+	</bean>
+
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="poolName" value="HikariConnectionPool" />
+		<property name="connectionTestQuery" value="SELECT 1" />
+		<property name="dataSourceClassName" value="org.h2.jdbcx.JdbcDataSource" />
+		<property name="minimumIdle" value="1" />
+		<property name="maximumPoolSize" value="2" />
+		<property name="connectionTimeout" value="5000" />
+		<property name="leakDetectionThreshold" value="10000" />
+		<property name="initializationFailFast" value="true" />
+		<property name="dataSourceProperties">
+			<props>
+				<prop key="url">jdbc:h2:file:./data/db/test_live_docs_data;FILE_LOCK=FS;AUTO_RECONNECT=TRUE</prop>
+				<prop key="user">sa</prop>
+				<prop key="password"></prop>
+			</props>
+		</property>
+	</bean>
+</beans>

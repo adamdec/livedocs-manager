@@ -1,0 +1,9 @@
+<processing>
+	<logfiledir>${INSTALL_PATH}</logfiledir>
+	<job name="Executing ID Check">
+		<os family="windows" />
+		<executeclass name="com.indexdata.livedocs.manager.core.utils.IDProcessor" />
+	</job>
+	<onFail previous="false" next="false" />
+	<onSuccess previous="false" next="true" />
+</processing>

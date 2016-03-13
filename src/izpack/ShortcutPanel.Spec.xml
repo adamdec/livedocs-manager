@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<shortcuts>
+	<programGroup defaultName="[live-docs manager]" location="applications" />
+
+	<shortcut name="[live-docs manager] - DB Startup" programGroup="yes"
+		desktop="yes" applications="no" startMenu="yes" startup="no"
+		target="$INSTALL_PATH\start_db.bat" commandLine="" description="[live-docs manager] DB Startup"
+		iconFile="$INSTALL_PATH\images\ldm.ico" iconIndex="0" initialState="noShow">
+
+		<createForPack name="live-docs manager software" />
+
+	</shortcut>
+
+	<shortcut name="[live-docs manager] - DB Shutdown" programGroup="yes"
+		desktop="yes" applications="no" startMenu="yes" startup="no"
+		target="$INSTALL_PATH\stop_db.bat" commandLine=""
+		iconFile="$INSTALL_PATH\images\ldm.ico" iconIndex="0"
+		description="Shutdown [live-docs manager] DB">
+
+		<createForPack name="live-docs manager software" />
+	</shortcut>
+
+	<shortcut name="[live-docs manager] - Uninstaller" programGroup="yes"
+		desktop="no" applications="no" startMenu="no" startup="no"
+		target="$INSTALL_PATH\uninstaller\uninstall.jar" commandLine=""
+		iconFile="$INSTALL_PATH\images\ldm.ico" iconIndex="31"
+		description="[live-docs manager] Uninstaller">
+
+		<createForPack name="live-docs manager software" />
+	</shortcut>
+
+</shortcuts>

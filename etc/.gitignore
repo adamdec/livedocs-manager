@@ -1,0 +1,11 @@
+/lib/
+/dependency/
+/data/
+/live-docs-db (x64).exe
+/live-docs-db (x86).exe
+/live-docs-manager (x64).exe
+/live-docs-manager (x86).exe
+/live-docs-security-1.0.0 (i586).exe
+/live-docs-security-1.0.0 (x64).exe
+/live-docs-station-id-1.0.0 (i586).exe
+/live-docs-station-id-1.0.0 (x64).exe

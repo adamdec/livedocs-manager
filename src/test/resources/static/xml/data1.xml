@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<indexed>
+	<title>Eurovalve EC Files Year 13</title>
+	<batchnumber>CDV0421</batchnumber>
+	<header>
+		<field>Box Number</field>
+		<field>EC Number</field>
+	</header>
+	<data>
+		<file path="Eurovalve 2013 A-L\3cl-B\EC13746.jpg">
+			<field name="Box Number">3cl-B</field>
+			<field name="EC Number">EC13746</field>
+		</file>
+		<file path="Eurovalve 2013 A-L\3cl-B\EC13753.jpg">
+			<field name="Box Number">3cl-B</field>
+			<field name="EC Number">EC13753</field>
+		</file>
+		<file path="Eurovalve 2013 A-L\3cl-B\EC13754.jpg">
+			<field name="Box Number">3cl-B</field>
+			<field name="EC Number">EC13754</field>
+		</file>
+		<file path="Eurovalve 2013 A-L\C\EC13723.jpg">
+			<field name="Box Number">C</field>
+			<field name="EC Number">EC13723</field>
+		</file>
+		<file path="Eurovalve 2013 A-L\C\EC13741.jpg">
+			<field name="Box Number">C</field>
+			<field name="EC Number">EC13741</field>
+		</file>
+		<file path="Eurovalve 2013 A-L\C\EC13747.jpg">
+			<field name="Box Number">C</field>
+			<field name="EC Number">EC13747</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\M - O\EC13731.jpg">
+			<field name="Box Number">M - O</field>
+			<field name="EC Number">EC13731</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\M - O\EC13736.jpg">
+			<field name="Box Number">M - O</field>
+			<field name="EC Number">EC13736</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\M - O\EC13737.jpg">
+			<field name="Box Number">M - O</field>
+			<field name="EC Number">EC13737</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\PA-PU\EC115084.jpg">
+			<field name="Box Number">PA-PU</field>
+			<field name="EC Number">EC115084</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\PA-PU\EC13686.jpg">
+			<field name="Box Number">PA-PU</field>
+			<field name="EC Number">EC13686</field>
+		</file>
+		<file path="Eurovalve 2013 M-Z\PA-PU\EC13721.jpg">
+			<field name="Box Number">PA-PU</field>
+			<field name="EC Number">EC13721</field>
+		</file>
+	</data>
+</indexed>

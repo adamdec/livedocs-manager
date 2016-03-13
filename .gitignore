@@ -1,0 +1,9 @@
+/target/
+/data/
+/.svn/
+/.settings/
+/discs/
+/install/
+/.classpath
+/.project
+/dependency-reduced-pom.xml

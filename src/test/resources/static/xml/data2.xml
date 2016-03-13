@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<indexed>
+	<title>Client files</title>
+	<batchnumber>CDV0387</batchnumber>
+	<header>
+		<field>File Number</field>
+		<field>Title</field>
+		<field>Address</field>
+		<field>Work Type</field>
+		<field>Matter</field>
+		<field>Date opened</field>
+	</header>
+	<data>
+		<file path="Bell &amp; wright\A0290001.pdf">
+			<field name="File Number">A0290001</field>
+			<field name="Title">ADDISON MARTYN MR</field>
+			<field name="Address">21 CHURCH STREET, GLENTWORTH, GAINSBOROUGH, DN21
+				5OG</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 8 PAD MORE LANE UPTON</field>
+			<field name="Date opened">01/06/2011</field>
+		</file>
+		<file path="Bell &amp; wright\A0299001.pdf">
+			<field name="File Number">A0299001</field>
+			<field name="Title">ABBOT M MR</field>
+			<field name="Address">6 GRAYINGHAM RD, KIRTON IN LINDSEY, GAINSBOROUGH,
+				DN21 4EL</field>
+			<field name="Work Type">202</field>
+			<field name="Matter">UNIT 1 THE AIRFIELD BLYBOROUGH</field>
+			<field name="Date opened"></field>
+		</file>
+		<file path="Bell &amp; wright\B0221005.pdf">
+			<field name="File Number">B0221005</field>
+			<field name="Title">BURRELL IRIS MRS</field>
+			<field name="Address">68 HIGH STREET, BLYTON GAINSBOROUGH, LINCOLNSHIRE
+			</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE 4 B GAINSBOROUGH RD BLYTON</field>
+			<field name="Date opened">29/06/2009</field>
+		</file>
+		<file path="Bell &amp; wright\B0370005.pdf">
+			<field name="File Number">B0370005</field>
+			<field name="Title">BUTROID NICLOA JEAN MRS</field>
+			<field name="Address">24 ALFRED STREET, GAINSBOROUGH</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE PLOT 1 HAWTHORNE CROFT</field>
+			<field name="Date opened">10/03/2005</field>
+		</file>
+		<file path="Bell &amp; wright\B0546004.pdf">
+			<field name="File Number">B0546004</field>
+			<field name="Title">MR + MRS NATALIE + NICHOLSA BRADLEY</field>
+			<field name="Address">THE VINEYARD LANDING LANE, HEMINGBROUGH</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">P/O 39 MICKLEGATE YORK</field>
+			<field name="Date opened">04/04/2006</field>
+		</file>
+		<file path="Bell &amp; wright\B0752004.pdf">
+			<field name="File Number">B0752004</field>
+			<field name="Title">MR MICHOLAS BRADLEY</field>
+			<field name="Address">THE VINEYARD LANDING LANE, HEMINGBROUGH</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE FLAT 4 23-25 WELLINGTON STREET</field>
+			<field name="Date opened">25/01/2007</field>
+		</file>
+		<file path="Bell &amp; wright\C0270004.pdf">
+			<field name="File Number">C0270004</field>
+			<field name="Title">COLLINSON KEITH + MARY COLETTER MR + MRS</field>
+			<field name="Address">24 SYCAMORE DRIVE, GAINSBOROUGH, LINS, DN21 1 FD
+			</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE 20 MARKET STREET GAINSBOROUGH</field>
+			<field name="Date opened">15/12/2009</field>
+		</file>
+		<file path="Bell &amp; wright\C0531002.pdf">
+			<field name="File Number">C0531002</field>
+			<field name="Title">MRS ELIZA CURTIS</field>
+			<field name="Address">WEST VILA CARE HOME WESTFIELD RD, RETFORD</field>
+			<field name="Work Type">903</field>
+			<field name="Matter">PRIVATE GENERAL</field>
+			<field name="Date opened">10/12/2008</field>
+		</file>
+		<file path="Bell &amp; wright\C0742002.pdf">
+			<field name="File Number">C0742002</field>
+			<field name="Title">MRS SOLOME CARTER</field>
+			<field name="Address">10 STATION RD, KNAITH PARK</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">SALE 10 STATION RD, KNAITH PARK</field>
+			<field name="Date opened">26/07/2010</field>
+		</file>
+		<file path="Bell &amp; wright\D0121006.pdf">
+			<field name="File Number">D0121006</field>
+			<field name="Title">MR J DAY</field>
+			<field name="Address">24 BURCHWOOD VIEW, RIPLINGHAM FARM</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 40 ALBERT STREET BRIGG</field>
+			<field name="Date opened">03/10/2006</field>
+		</file>
+		<file path="Bell &amp; wright\D0437002.pdf">
+			<field name="File Number">D0437002</field>
+			<field name="Title">DAY+SCANLAN GH+ V MR + MRS</field>
+			<field name="Address">123 PENTLAND AVE, CLAYTON, BRADFORD, BD14 6JF
+			</field>
+			<field name="Work Type">106</field>
+			<field name="Matter">TSF + RE-MORTGAGE 123 PENTLAND AVE CLAYTON</field>
+			<field name="Date opened">23/05/2012</field>
+		</file>
+		<file path="Bell &amp; wright\E0102004.pdf">
+			<field name="File Number">E0102004</field>
+			<field name="Title">EARL DEC'D RALPH THOMAS MR</field>
+			<field name="Address">ORCHARD CROFT, 39A NORTH STREET, OWSTON FERRY NORTH
+				LINCS</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">SALE OF ORCHARD CROFT 39 A NORTH ST OWSON</field>
+			<field name="Date opened">18/07/2008</field>
+		</file>
+		<file path="Bell &amp; wright\F0091010.pdf">
+			<field name="File Number">F0091010</field>
+			<field name="Title">MR + MRS RUTH &amp; RICHARD FORREST</field>
+			<field name="Address">BLYTH HOUSE STATION STREET, MISTERTON</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 10 GREENWIID RD</field>
+			<field name="Date opened">21/06/2010</field>
+		</file>
+		<file path="Bell &amp; wright\F0095006.pdf">
+			<field name="File Number">F0095006</field>
+			<field name="Title">FOGG (DECEASED) LAWRENCE MR</field>
+			<field name="Address">5 MILL LANE, MORTON, GRAINSBOROUGH, LINCOLNSHIRE,
+				DN21 3 BW</field>
+			<field name="Work Type">803</field>
+			<field name="Matter">PROBATE</field>
+			<field name="Date opened">09/12/2008</field>
+		</file>
+		<file path="Bell &amp; wright\F0248001.pdf">
+			<field name="File Number">F0248001</field>
+			<field name="Title">FARR ROY MR</field>
+			<field name="Address">C/O 2 APTEY CLOSE, GAINSBOROUGH, LINCOLNSHIRE, DN21
+				1SQ</field>
+			<field name="Work Type">502</field>
+			<field name="Matter">DIVORCE</field>
+			<field name="Date opened">22/01/2008</field>
+		</file>
+		<file path="Bell &amp; wright\F0330001.pdf">
+			<field name="File Number">F0330001</field>
+			<field name="Title">MR ROBERT FORTHERINGHAM</field>
+			<field name="Address">34 ASQUITH STREET, GAINSBOROUGH</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 8 CONNAUGHT ROAD</field>
+			<field name="Date opened">27/10/2009</field>
+		</file>
+		<file path="Bell &amp; wright\G0411002.pdf">
+			<field name="File Number">G0411002</field>
+			<field name="Title">GIBSON CLAIRE LOUISE MRS</field>
+			<field name="Address">238 HIGHFIELDS PARK DRIVE, BROADWAY, DERBY, DE22
+				1JY</field>
+			<field name="Work Type">103</field>
+			<field name="Matter">TRANSFER MORTAGE 28 ST WYSTANS ROAD DERBY</field>
+			<field name="Date opened">31/03/2009</field>
+		</file>
+		<file path="Bell &amp; wright\G0419001.pdf">
+			<field name="File Number">G0419001</field>
+			<field name="Title">GREEN PETER KEVIN MR</field>
+			<field name="Address">61 ASQUITH STREET, GAINSBOROUGH, LICLONSHIRE, DN21
+				2PQ, C/O 61 COREY ST, GAINSBOROUGH, DW21 2PS</field>
+			<field name="Work Type">502</field>
+			<field name="Matter">MATRIMONIAL</field>
+			<field name="Date opened">06/10/2009</field>
+		</file>
+		<file path="Bell &amp; wright\G0433001.pdf">
+			<field name="File Number">G0433001</field>
+			<field name="Title">GROVES JEANNETTE MRS</field>
+			<field name="Address">10 ORCHARD AVENUE, SCOTTERM GAINSBOROUGH, DN21 3UA
+			</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">P/O MILL HILL HOUSE, WELLINGHAM BY STOW</field>
+			<field name="Date opened">30/03/2012</field>
+		</file>
+		<file path="Bell &amp; wright\H0434002.pdf">
+			<field name="File Number">H0434002</field>
+			<field name="Title">HALL TIMOTHY GEOFFREY MR</field>
+			<field name="Address">1 GRASSMERE CLOSE, GAINSBOROUGH, DN21 1YA</field>
+			<field name="Work Type">903</field>
+			<field name="Matter">MISC-TITLE DEEDS-VOLUNTARY REGISTRATION OF 1 GRASM
+			</field>
+			<field name="Date opened">14/06/2010</field>
+		</file>
+		<file path="Bell &amp; wright\H0794001.pdf">
+			<field name="File Number">H0794001</field>
+			<field name="Title">MRS MARY &amp; BETTY BROWN MRS M HEPLEY</field>
+			<field name="Address">9 HEWTHORN CLOSE, BECKINGHAM</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE OF TITLE 2000</field>
+			<field name="Date opened">10/11/2009</field>
+		</file>
+		<file path="Bell &amp; wright\H0794002.pdf">
+			<field name="File Number">H0794002</field>
+			<field name="Title">MRS MARY + HEDLEY MRS BETTY BROWN</field>
+			<field name="Address">9 HAWTHORN CLOSE</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE TITLE NOS 326 AND 332 HAXEY</field>
+			<field name="Date opened">01/12/2009</field>
+		</file>
+		<file path="Bell &amp; wright\H0850001.pdf">
+			<field name="File Number">H0850001</field>
+			<field name="Title">HAMILTON + PRESTMAN BJ+L MR+ MISS</field>
+			<field name="Address">41 WEMBLEY STREET, GAINSBOROUGH, LINCOLNSHIRE, DN21
+				2AJ</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 28 JUNIPER WAY</field>
+			<field name="Date opened">19/04/2010</field>
+		</file>
+		<file path="Bell &amp; wright\H0854003.pdf">
+			<field name="File Number">H0854003</field>
+			<field name="Title">MR MRS ANDREW &amp; SUSAN HART DALE</field>
+			<field name="Address">66 MAYFLOWER CLOSE</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PUCHASE 38 DRAKE STREET</field>
+			<field name="Date opened">27/09/2010</field>
+		</file>
+		<file path="Bell &amp; wright\J0317002.pdf">
+			<field name="File Number">J0317002</field>
+			<field name="Title">MRS ANNE SALLY JEEVES</field>
+			<field name="Address">55 ALMOND RD CANTLEY</field>
+			<field name="Work Type">103</field>
+			<field name="Matter">SALE OF 55 ALMOND RD</field>
+			<field name="Date opened">14/08/2009</field>
+		</file>
+		<file path="Bell &amp; wright\J0318001.pdf">
+			<field name="File Number">J0318001</field>
+			<field name="Title">JOHNSON PAUL MR</field>
+			<field name="Address">33 CAISTOR ROAD, DODDINGTON PARK, LINCOLN, LN6 3QA
+			</field>
+			<field name="Work Type">502</field>
+			<field name="Matter">MATRIMONIAL</field>
+			<field name="Date opened">12/08/2009</field>
+		</file>
+		<file path="Bell &amp; wright\J0334003.pdf">
+			<field name="File Number">J0334003</field>
+			<field name="Title">MR PHILIP DARREN JAMES</field>
+			<field name="Address">8 NEWALLS TERRACE MISTERTON</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">SALE 8 NEWELLS TERRACE MISTERTON</field>
+			<field name="Date opened">13/02/2012</field>
+		</file>
+		<file path="Bell &amp; wright\J0336001.pdf">
+			<field name="File Number">J0336001</field>
+			<field name="Title">JONES S MR</field>
+			<field name="Address">HURST FARM, AKEFERRY ROAD, WESTWOOD SIDE, DN9 2DX
+			</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE LAND STATION RD</field>
+			<field name="Date opened">19/01/2012</field>
+		</file>
+		<file path="Bell &amp; wright\K0110004.pdf">
+			<field name="File Number">K0110004</field>
+			<field name="Title">MR LESLIE ALBERT KEWORTH</field>
+			<field name="Address">LOCHEIL NUT CROFT WAY HARWELL EVERTON</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE LOCEIL HARWELL</field>
+			<field name="Date opened">15/03/2010</field>
+		</file>
+		<file path="Bell &amp; wright\K0221001.pdf">
+			<field name="File Number">K0221001</field>
+			<field name="Title">KNAGG FARRIERY SERVICES LTD</field>
+			<field name="Address">C/O JASON KNAGG, 7 OLD FORGE RD, MISTERTON
+				DONCASTER</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE OF LAND EPWOITH</field>
+			<field name="Date opened">27/11/2008</field>
+		</file>
+		<file path="Bell &amp; wright\K0235001.pdf">
+			<field name="File Number">K0235001</field>
+			<field name="Title">KEETEY + BARTLETT + SJ + SJ MISST MISS</field>
+			<field name="Address">43 C LANSDOWNE ST, PORTSMOTH</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 10 HERMES COURT PRIDDYS HARD</field>
+			<field name="Date opened">01/08/2011</field>
+		</file>
+		<file path="Bell &amp; wright\L0058003.pdf">
+			<field name="File Number">L0058003</field>
+			<field name="Title">MR + MRS RUTH CAROLINE &amp; HAROLD LOATES</field>
+			<field name="Address">POPULAR FARM HOUSE, SOUTH LEVERTON</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE LAND ADJOINING KIWI FARM, STOKEHAM</field>
+			<field name="Date opened">12/06/2009</field>
+		</file>
+		<file path="Bell &amp; wright\L0100002.pdf">
+			<field name="File Number">L0100002</field>
+			<field name="Title">LOCKWOOD DEC'D CONSTANCE MARY MRS</field>
+			<field name="Address"></field>
+			<field name="Work Type">105</field>
+			<field name="Matter">ASSENT GILLBY FARM PILHAM &amp; LAND @ BLYTON
+			</field>
+			<field name="Date opened">09/06/2010</field>
+		</file>
+		<file path="Bell &amp; wright\L0100005.pdf">
+			<field name="File Number">L0100005</field>
+			<field name="Title">LOCKWOOD DEC'D CONSTANCE MARY MRS</field>
+			<field name="Address"></field>
+			<field name="Work Type">105</field>
+			<field name="Matter">ASSENT LAND BECKINGHAM</field>
+			<field name="Date opened">09/06/2010</field>
+		</file>
+		<file path="Bell &amp; wright\L0373001.pdf">
+			<field name="File Number">L0373001</field>
+			<field name="Title">MR NIGEL &amp; ROBERT AND DAVID HAROLD LOATES
+			</field>
+			<field name="Address">MOUNT PLEASENT FARM LAUGHTON</field>
+			<field name="Work Type">201</field>
+			<field name="Matter">REGISTRATION LAND SOUTH LEVERTON (6688)</field>
+			<field name="Date opened">09/01/2008</field>
+		</file>
+		<file path="Bell &amp; wright\L0403002.pdf">
+			<field name="File Number">L0403002</field>
+			<field name="Title">LILLIE JOHN + LYNDA MR + MRS</field>
+			<field name="Address">HIGHFIELD HOUSE FARM, MILL LANE, WALKERINGHAM,
+				DONCASTER, DN10 4HY</field>
+			<field name="Work Type">110</field>
+			<field name="Matter">TSF HIGHFIELD HOUSE FARM, WALKERINGHAM</field>
+			<field name="Date opened">02/02/2010</field>
+		</file>
+		<file path="Bell &amp; wright\M0190003.pdf">
+			<field name="File Number">M0190003</field>
+			<field name="Title">MARTIN ROGER EDWARD + JEAN MR + MRS</field>
+			<field name="Address">5 CORRIFIELD DRIVE, MARTON, GAINSBOROUGH,
+				LINCOLNSHIRE, DN21 5 AT</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE 5 CORNFIELD DRIVE MARTON</field>
+			<field name="Date opened">09/06/2008</field>
+		</file>
+		<file path="Bell &amp; wright\M0569001.pdf">
+			<field name="File Number">M0569001</field>
+			<field name="Title">MILES GORDON MR</field>
+			<field name="Address">37 MARLBOROUGH STREET, GAINSBOROUGH, LINCOLNSHIRE
+			</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">S/O 37 MARLBOROUGH STREET, GAINSBOROUGH</field>
+			<field name="Date opened">24/04/2007</field>
+		</file>
+		<file path="Bell &amp; wright\N0102010.pdf">
+			<field name="File Number">N0102010</field>
+			<field name="Title">NB SQUARD LTD</field>
+			<field name="Address">THE VINYARD LANDING LANE</field>
+			<field name="Work Type">209</field>
+			<field name="Matter">LEASE OF UNIT 6 WELLINGTON RD DEWSBURY</field>
+			<field name="Date opened">06/12/2005</field>
+		</file>
+		<file path="Bell &amp; wright\N0187002.pdf">
+			<field name="File Number">N0187002</field>
+			<field name="Title">MR + MRS D &amp; C NORTON</field>
+			<field name="Address">18 SNIPE PARK RD, BURCOTES</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 48 THORNHILL RD, BURCOTES</field>
+			<field name="Date opened">29/06/2009</field>
+		</file>
+		<file path="Bell &amp; wright\N0194001.pdf">
+			<field name="File Number">N0194001</field>
+			<field name="Title">MRS HEATHER NEALE</field>
+			<field name="Address">36 JAY CLOSE LOWER EARLEY</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE OF 68 PEARL GARDENS SLOUGH</field>
+			<field name="Date opened">03/09/2010</field>
+		</file>
+		<file path="Bell &amp; wright\P0385002.pdf">
+			<field name="File Number">P0385002</field>
+			<field name="Title">PYE JOHN CLIFFORD MR</field>
+			<field name="Address">51 RAVENSDALE RD, GAINSBOROUGH, LINCOLSHIRE</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">SALE 51 RAVENDALE RD</field>
+			<field name="Date opened">23/05/2011</field>
+		</file>
+		<file path="Bell &amp; wright\P0452001.pdf">
+			<field name="File Number">P0452001</field>
+			<field name="Title">PATMORE L R</field>
+			<field name="Address"></field>
+			<field name="Work Type">105</field>
+			<field name="Matter">SALE 25 ALSBY WALK, GAINSBOROUGH</field>
+			<field name="Date opened">30/01/2008</field>
+		</file>
+		<file path="Bell &amp; wright\R0129003.pdf">
+			<field name="File Number">R0129003</field>
+			<field name="Title">ROCKALL ENGINEERS</field>
+			<field name="Address">5 CORRINGHAM ROAD, GAINSBOROUGH, LINCOLSHIRE, DN21
+				1QB</field>
+			<field name="Work Type">209</field>
+			<field name="Matter">LEASE-PENSION FUND</field>
+			<field name="Date opened">28/07/2009</field>
+		</file>
+		<file path="Bell &amp; wright\R0237004.pdf">
+			<field name="File Number">R0237004</field>
+			<field name="Title">REDFERN THOMAS (DEC)</field>
+			<field name="Address">IVYDENE STATION RD, WALKERINGHAM</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">ASSENT APR 7.04 ACRES LAND WALKERINGHAM</field>
+			<field name="Date opened">26/04/2009</field>
+		</file>
+		<file path="Bell &amp; wright\R0237008.pdf">
+			<field name="File Number">R0237008</field>
+			<field name="Title">REOFERN THOMAS</field>
+			<field name="Address">IVYDENE STATION ROAD, WALKERINGHAM</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">ASSENT OF IVYDENE WALKERING</field>
+			<field name="Date opened">28/04/2009</field>
+		</file>
+		<file path="Bell &amp; wright\R0437001.pdf">
+			<field name="File Number">R0437001</field>
+			<field name="Title">MISS S REEVE</field>
+			<field name="Address">12 PRCHARD CLOSE SCOTHERN</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 5 GRAFTON STREET LINCOLN</field>
+			<field name="Date opened">03/11/2009</field>
+		</file>
+		<file path="Bell &amp; wright\R0444001.pdf">
+			<field name="File Number">R0444001</field>
+			<field name="Title">ROBERTS O S MRS</field>
+			<field name="Address">3 SCHOOL HOUSE LANE, WALKERINGHAM</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE THE LEACONS WALKERINGHAM</field>
+			<field name="Date opened">23/04/2010</field>
+		</file>
+		<file path="Bell &amp; wright\S0284003.pdf">
+			<field name="File Number">S0284003</field>
+			<field name="Title">MR &amp; MRS PJ + PH STANTON</field>
+			<field name="Address">THE SHIP INN 32 FRONT STREET</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">P/O 54 QUEENSWAY, GAINSBOROUGH</field>
+			<field name="Date opened">08/03/2012</field>
+		</file>
+		<file path="Bell &amp; wright\S0500004.pdf">
+			<field name="File Number">S0500004</field>
+			<field name="Title">MRS ELSA SLEIGHT</field>
+			<field name="Address">3 WILLIAM STREET, SAXILBY</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE 3 WILLIAM STREET</field>
+			<field name="Date opened">27/06/2012</field>
+		</file>
+		<file path="Bell &amp; wright\S0500006.pdf">
+			<field name="File Number">S0500006</field>
+			<field name="Title">MRS ELSA SLEIGHT</field>
+			<field name="Address">3 WILLIAM STREET, SAXILBY</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE 34 ROSELE AVE WELTON</field>
+			<field name="Date opened">13/08/2012</field>
+		</file>
+		<file path="Bell &amp; wright\S0788001.pdf">
+			<field name="File Number">S0788001</field>
+			<field name="Title">MR MICHAEL SMITHSON</field>
+			<field name="Address">LYNFILED LODGE, NORTH STREET, QWSTON FERRY</field>
+			<field name="Work Type">108</field>
+			<field name="Matter">PURCHASE LAND @ REAR OF ORCHARD GRIVE</field>
+			<field name="Date opened">31/07/2009</field>
+		</file>
+		<file path="Bell &amp; wright\S0876001.pdf">
+			<field name="File Number">S0876001</field>
+			<field name="Title">STOREY JOHN PHILIP MR</field>
+			<field name="Address">THE OSTLERS, GAINSBOROUGH ROAD, RETFORD,
+				NOTINGHAMSHIRE</field>
+			<field name="Work Type">502</field>
+			<field name="Matter">MATRIMONIAL</field>
+			<field name="Date opened">27/02/2008</field>
+		</file>
+		<file path="Bell &amp; wright\S0943001.pdf">
+			<field name="File Number">S0943001</field>
+			<field name="Title">SMITH J C MS</field>
+			<field name="Address">9 VICARAGE RD, WILLOUGHTON, GAINSBOROUGH,
+				LINCOLNSHIRE, DN21 5SA</field>
+			<field name="Work Type">103</field>
+			<field name="Matter">TRANSFER OF EQUITY 9 VICARAGE RD</field>
+			<field name="Date opened">04/04/2011</field>
+		</file>
+		<file path="Bell &amp; wright\S0943002.pdf">
+			<field name="File Number">S0943002</field>
+			<field name="Title">SMITH J C MS</field>
+			<field name="Address">9 VICARAGE RD, WILLOUGHTON, GAINSBOROUGH,
+				LINCOLNSHIRE, DN21 5SA</field>
+			<field name="Work Type">107</field>
+			<field name="Matter">SALE OF 9 VICARAGE RD, WILLOUGHTON, DN21 5SA
+			</field>
+			<field name="Date opened">23/09/2011</field>
+		</file>
+		<file path="Bell &amp; wright\W0001397.pdf">
+			<field name="File Number">W0001397</field>
+			<field name="Title">ACIS AGOUP LIMITED</field>
+			<field name="Address">ACIS HOUSE BRIDGE STREET, GAINSBOROUGH</field>
+			<field name="Work Type">208</field>
+			<field name="Matter">P/O 6 PROPERTIES AT SCOTTER</field>
+			<field name="Date opened">23/11/2004</field>
+		</file>
+		<file path="Bell &amp; wright\W0274004.pdf">
+			<field name="File Number">W0274004</field>
+			<field name="Title">WHELPTON DOREEN EDITH MR</field>
+			<field name="Address">4 WHITE COTTAGES, GAINSBOROUGH RD, GATE BURTON
+				GAINSBOROUGH, LINCS, DN21 5BB</field>
+			<field name="Work Type">105</field>
+			<field name="Matter">ASSENT 4 WHITE COTTAGES, GATE BURTON</field>
+			<field name="Date opened">18/07/2012</field>
+		</file>
+		<file path="Bell &amp; wright\W0600001.pdf">
+			<field name="File Number">W0600001</field>
+			<field name="Title">WHITLAM V M MRS</field>
+			<field name="Address">3 ACACIA AVENUE, GAINSBOROUGH, LINCOLNSHIRE</field>
+			<field name="Work Type">110</field>
+			<field name="Matter">TRANSFER OF 34 LINDEN TERRACE</field>
+			<field name="Date opened">19/02/2007</field>
+		</file>
+	</data>
+</indexed>

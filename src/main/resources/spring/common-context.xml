@@ -1,0 +1,58 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<context:annotation-config />
+
+	<context:component-scan
+		base-package="com.indexdata.livedocs.manager.service,
+		com.indexdata.livedocs.manager.ui,
+		com.indexdata.livedocs.manager.repository.custom,
+		com.indexdata.livedocs.manager.service.security,
+		com.indexdata.livedocs.manager.core.resources,
+		com.indexdata.livedocs.manager.repository.utils" />
+
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>classpath:/static/manager_messages</value>
+			</list>
+		</property>
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+
+	<bean id="conversionService"
+		class="org.springframework.context.support.ConversionServiceFactoryBean">
+		<property name="converters">
+			<list>
+				<bean
+					class="com.indexdata.livedocs.manager.service.converter.ProfileEntityConverter" />
+				<bean
+					class="com.indexdata.livedocs.manager.service.converter.UserEntityConverter" />
+				<bean
+					class="com.indexdata.livedocs.manager.service.converter.DiscEntityConverter" />
+				<bean
+					class="com.indexdata.livedocs.manager.service.converter.FileEntityConverter" />
+				<bean
+					class="com.indexdata.livedocs.manager.service.converter.UserConverter"
+					c:userAuthenticationContext-ref="userAuthenticationContext" />
+			</list>
+		</property>
+	</bean>
+
+	<beans profile="H2">
+		<context:property-placeholder
+			file-encoding="UTF-8"
+			location="classpath:/manager-app-config.properties,classpath:/manager-h2-config.properties" />
+	</beans>
+
+	<beans profile="POSTGRES">
+		<context:property-placeholder
+			file-encoding="UTF-8"
+			location="classpath:/manager-app-config.properties,classpath:/manager-postgres-config.properties" />
+	</beans>
+</beans>

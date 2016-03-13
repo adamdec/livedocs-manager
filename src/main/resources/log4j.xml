@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false">
+
+	<appender name="CONSOLE_APPENDER" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss,SSS} %-5p [%t] %C{1}:%L - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ERROR_FILE_APPENDER" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="ERROR" />
+		<param name="File" value="data/logs/livedocs_manager_errors.log" />
+		<param name="MaxFileSize" value="5MB" />
+		<param name="BufferSize" value="512" />
+		<param name="MaxBackupIndex" value="10" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss,SSS} %-5p [%t] %C:%L - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="LOG_FILE_APPENDER" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="data/logs/livedocs_manager.log" />
+		<param name="MaxFileSize" value="5MB" />
+		<param name="BufferSize" value="512" />
+		<param name="MaxBackupIndex" value="10" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{HH:mm:ss,SSS} %-5p [%t] %C:%L - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ASYNCHRONOUS_APPENDER" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="512" />
+		<param name="LocationInfo" value="true" />
+		<appender-ref ref="CONSOLE_APPENDER" />
+		<appender-ref ref="LOG_FILE_APPENDER" />
+		<appender-ref ref="ERROR_FILE_APPENDER" />
+	</appender>
+
+	<logger name="com.indexdata.livedocs">
+		<level value="DEBUG" />
+	</logger>
+
+	<logger name="org.springframework">
+		<level value="INFO" />
+	</logger>
+
+	<logger name="com.zaxxer.hikari">
+		<level value="ERROR" />
+	</logger>
+
+	<logger name="org.hibernate">
+		<level value="ERROR" />
+	</logger>
+
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="ASYNCHRONOUS_APPENDER" />
+	</root>
+
+</log4j:configuration>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false"
+	monitoring="autodetect" dynamicConfig="true">
+
+	<diskStore path="user.dir/data/ehcache" />
+
+	<defaultCache maxEntriesLocalHeap="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" diskSpoolBufferSizeMB="30"
+		maxEntriesLocalDisk="10000000" diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU" statistics="true">
+		<persistence strategy="localTempSwap" />
+	</defaultCache>
+
+	<cache name="ProfileEntity" maxEntriesLocalHeap="100" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="DiscEntity" maxEntriesLocalHeap="1000" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="AttributeEntity" maxEntriesLocalHeap="10000"
+		eternal="false" timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="UserEntity" maxEntriesLocalHeap="100" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="UserPermissionEntity" maxEntriesLocalHeap="300"
+		eternal="false" timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="ProfilePermissionEntity" maxEntriesLocalHeap="30000"
+		eternal="false" timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="FileEntity" maxEntriesLocalHeap="50000" eternal="false"
+		timeToIdleSeconds="300" timeToLiveSeconds="600">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="org.hibernate.cache.internal.StandardQueryCache"
+		maxEntriesLocalHeap="50" eternal="false" timeToLiveSeconds="120">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+		maxEntriesLocalHeap="5000" eternal="true">
+		<persistence strategy="localTempSwap" />
+	</cache>
+</ehcache>

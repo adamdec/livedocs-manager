@@ -1,0 +1,7 @@
+Welcome to live-docs manager Setup Wizard
+
+This will install live-docs manager software on your computer.
+
+It is recommended that you close all other application before continuing.
+
+Click Next to continue or Quit to exit Setup.
